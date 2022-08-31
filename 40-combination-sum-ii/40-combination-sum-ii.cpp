@@ -18,6 +18,7 @@ public:
             recur(candidates,target-candidates[i],cur,i+1);
             cur.pop_back();
         }
+        return;
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
         vector<int>cur;
